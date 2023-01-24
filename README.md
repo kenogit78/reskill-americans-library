@@ -30,6 +30,9 @@ Run the project
 npm start
 ```
 
+##Author
+Your name (yourusername)
+
 ## Contributing
 
 We welcome contributions from anyone! If you'd like to help out, please open a pull request with your changes.
