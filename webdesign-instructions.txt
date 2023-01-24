@@ -1,0 +1,8 @@
+1. project folder and files
+2. github repo
+3. initialize git and connect project to github repo
+4. build signup page
+5. build login page
+6. build homepage
+7. build contact us page
+8. update github repo
