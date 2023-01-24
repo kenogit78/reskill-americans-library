@@ -30,8 +30,9 @@ Run the project
 npm start
 ```
 
-##Author
-Your name (yourusername)
+## Author
+Neka Blair (istoga)
+neka@nekablair.com
 
 ## Contributing
 
