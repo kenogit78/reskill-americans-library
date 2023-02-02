@@ -204,6 +204,11 @@ nav > li {
 
 /* About Page */
 
+.container {
+    display: flex;
+    gap: 20px;
+}
+
 h1 {
     padding: 20px 0;
 }
@@ -213,7 +218,7 @@ main {
     background: #E7E5E5;
 }
 
-aside > h1 {
+main > h1 {
     text-transform: uppercase;
 }
 
@@ -221,12 +226,13 @@ aside {
     font-size: 1.5rem;
     padding: 15px 10px;
     background: #fff;
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     gap: 30px;
     font-weight: 300;
     padding: 30px 20px 100px;
+    border-radius: 10px;
 }
 
  section > h3 {
@@ -244,32 +250,56 @@ aside {
 }
 
 .top-aside-headline > ul {
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 
 .aside-first {
     color: #5359EF;
     list-style-type: none;
-    background: #e7e5e5;
-    padding: 5px 10px;
-    margin-left: 15px;
+    padding: 10px 0;
+    
 }
 
-aside.ul {
-    border-radius: 25%;
+.aside-list {
+    border-radius: 10px;
+    background: #e7e5e5;
+    padding: 15px 5px;
+    margin-left: 15px;
 }
 
 section > hr {
     display: inline-block;
-    border-bottom: 2px solid #EECC1C;
+    border-bottom: 3px solid #EECC1C;
     width: 100%;
 
 }
 
 section {
-    width: 70%;
-    
+    width: 75%;
+    background: #fff;
+    padding: 25px;
+}
+
+.section-first-headline {
+    padding: 0 15px;
+    font-size: 1.75rem;
+}
+
+.section-headline  {
+    padding: 10px 25px;
+}
+
+.section-headline:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+div ul {
+    padding: 5px 5px 10px 50px;
+}
+
+ul li {
+    padding-bottom: 15px;
 }
 
 
