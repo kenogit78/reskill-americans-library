@@ -65,7 +65,7 @@ nav > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.25rem 0.5rem;
     border-radius: 25px;
 }
 
@@ -77,4 +77,224 @@ nav > li {
     width: 2.5rem;
     padding: 0;
     margin: 0;
+}
+
+/* Hero Section */
+
+.top-gray-bar {
+    background: #4A4446;
+    width: 100%;
+    height: 2rem;
+}
+
+.yellow-bar-hero {
+    background: #F8D937;
+    width: 100%;
+    height: 10rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-bar-hero > h1 {
+    text-shadow: 1px 1px gray;
+}
+
+.hero-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    min-width: 100%;
+    column-gap: 0.5rem;
+    height: 30rem;
+    grid-auto-rows: minmax(350px, auto);
+} 
+
+.hero-img-1 {
+    background: url(/img/girl.png);
+    background-size: cover;
+     justify-self: stretch;
+    align-self: stretch;
+    
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+}
+
+.hero-img-2 {
+    background: url(/img/woman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 2;
+}
+
+.hero-img-3 {
+    background: url(/img/mailbox.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 3;
+   padding: 1.5rem;
+}
+
+.hero-img-3-text {
+    width: 65%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hero-img-3-text > h5 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 45px;
+    height: 40px;
+} 
+
+.text1 {
+    display: flex;
+    gap: 5px;
+}
+
+.text2 {
+    display: flex;
+    gap: 5px;
+}
+
+
+.text3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Lower third of hero image */
+.purple-bar {
+    background: #14164acf;
+    color: #F8D937;
+    text-align: center;
+}
+
+.purple-bar > h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 75px 25px 10px;
+}
+
+.purple-bar > p {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 450px 15px;
+}
+
+.link-text {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 5px
+}
+
+
+/* About Page */
+
+h1 {
+    padding: 20px 0;
+}
+
+main {
+    padding: 10px 50px;
+    background: #E7E5E5;
+}
+
+aside > h1 {
+    text-transform: uppercase;
+}
+
+aside {
+    font-size: 1.5rem;
+    padding: 15px 10px;
+    background: #fff;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 300;
+    padding: 30px 20px 100px;
+}
+
+ section > h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+
+.top-aside-headline {
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.top-aside-headline > li {
+    padding: 5px 25px;
+}
+
+.top-aside-headline > ul {
+    border-radius: 50%;
+}
+
+
+.aside-first {
+    color: #5359EF;
+    list-style-type: none;
+    background: #e7e5e5;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+aside.ul {
+    border-radius: 25%;
+}
+
+section > hr {
+    display: inline-block;
+    border-bottom: 2px solid #EECC1C;
+    width: 100%;
+
+}
+
+section {
+    width: 70%;
+    
+}
+
+
+
+
+
+
+/* Styling the rows of books */
+.container-books {
+border: 2px solid red;
+height: 20rem;
+display: flex;
+justify-content: space-around;
+}
+
+.book {
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+/* Media Queries */
+
+@media (min-width: 55em) {
+    .hero-columns {
+        grid-auto-flow: column;
+    }
 }
