@@ -84,42 +84,88 @@ nav > li {
     margin: 0;
 }
 
-.sub-nav {
-    background: none;
-    color: #000;
-    display: inline;
-    text-align: center;
+/* Main */
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
-.sub-nav > ul > li {
-    list-style-type: none;
-    display: inline;
-    padding: 0 2.5rem;
-    text-transform: uppercase;
-}
+/* Sections */
 
-.container {
-    width: 100%;
-    padding: 2rem 10rem;
-}
-
-.container > h2 {
-    text-transform: uppercase;
-    padding: 2rem 0;
-}
-
-.book-grid {
-    display: grid;
-    grid-template-columns:   1fr 1fr 1fr 1fr 1fr;
-    padding: 0 2rem;
-}
-
-.book-grid > img {
+/* Section: Book Info */
+.book-info {
     width: 250px;
-    height: 350px;
+    height: 400px;
+    padding: 1rem;
 }
 
- img {
-    width: 15rem;
+.book-info > img {
+    min-width: 500px;
+    min-height: 380px;
+}
+
+.rating {
+    display: flex;
+    margin: 1rem 0;
     height: auto;
+    width: 250px;
+}
+
+.rating > p > span {
+    color: #5359EF;
+}
+
+.check-out {
+    background: #F8D937C9;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+}
+
+/* Section: Full Description */
+
+h2 {
+    font-size: 2.6rem;
+    line-height: 2;
+}
+
+.full-desc {
+    padding: 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+}
+
+.author-isbn {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.author-isbn > p > span {
+    color: #5359EF;
+}
+
+.author-isbn {
+    text-align: right;
+    line-height: 2;
+}
+
+.book-intro {
+    display: flex;
+}
+
+.fuller-desc > p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+article {
+    width: 80%;
+    line-height: 2;
+}
+
+.fuller-desc > article {
+    font-size: 1.25rem;
 }
