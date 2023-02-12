@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/account-create.css">
     <title>Account Page</title>
 </head>
 <body>
@@ -32,37 +32,43 @@
     <h1>Register</h1>
     <div class="container">
         <form action="submit">
-            <div class="close-btn">
-                <p>X</p>
-            </div>
+            <label for="name">Name<span>*</span></label>
+            <section id="name">
+                <div class="name-section">
+                    <input type="text" id="first-name">
+                    <label for="first-name">First</label>
+                </div>
+                <div class="name-section">
+                    <input type="text" id="last-name">
+                    <label for="last-name">Last</label>
+                </div>
+            </section>
+
+            <section class="user">
+                <label for="user">Username<span>*</span></label>
+                <input type="text">
+            </section>
+
+            <section class="email">
+                <label for="email">E-mail<span>*</span></label>
+                <input type="email" id="email">
+                
+            </section>
             
-            <h2>Sign into your account</h2>
-            <input type="text" placeholder="Email Address*" class="address">
-            <label for="email"></label>
-            <div class="pass">
-                <input type="text" placeholder="Password*">
-                <label for="password"></label>
-                <img src="/img/eye.png" alt="eye" width="25px" height="25px">
-            </div>
-            <div class="under-pass">
-                    <div>
-                        <input type="checkbox">Keep me signed in
-                        <img src="/img/circle.png" width="20px" height="20px"><img src="/img/i.png" width="5px" height="10px" class="second-img-under-pass">
-                    </div>
-                    <p>Forgot Password?</p>
-            </div>
-            <div>
-                <button type="submit" value="Sign in" class="form-btn">Sign in</button>
-            </div>
+            <section class="password">
+                <label for="password">Password<span>*</span></label>
+                <input type="password" id="email">
+            </section>
+            
+
+            <section class="bio">
+                <label for="bio">Short Bio<span>*</span></label>
+                <textarea type="text" id="bio" name="bio" rows="7" placeholder="Share a little information about yourself..."></textarea>
+            </section>
+            
+            <input type="submit">
+            
         
-        </form>
-        <hr>
-        <form class="sign-up-form">
-            <div class="form-bottom">
-                <p>Need to sign up?</p>
-                <button><a href="account-create.html">Create Account</a></button>
-                <p class="terms">Terms of Use & Privacy Policy</p>
-            </div>
         </form>
         
         
