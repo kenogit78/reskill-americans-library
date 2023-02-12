@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+}
+
+body {
+    font-family: "Jaldi", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #14164A;
+    color: #FFFEFE;
+    padding: 3rem 1rem;
+    font-size: 24px;
+    height: 8rem;
+}
+
+.home-icon {
+    width: 3.5rem;
+}
+
+nav > li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 15rem;
+    height: auto;
+    margin: 0;
+}
+
+.yellow-bar {
+    display: inline-block;
+    border-bottom: 1px solid #EECC1C;
+    width: 3.75rem;
+}
+
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text p {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.search {
+    border: none;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 25px;
+}
+
+.search-bar {
+    border: none;
+}
+
+.search-icon {
+    width: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+/* Sections */
+
+
+h1 {
+    font-size: 2rem;
+}
+
+.reviews {
+    
+}
+
+.btn {
+    position: relative;
+    line-height: 2;
+
+}
+
+.inner-btn {
+    position: absolute;
+    left: 0;
+}
+
+.write-review-btn {
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px 8px gray;
+    margin: 2rem 0;
+}
+
+span {
+    color: #5359EF;
+}
+
+.book {
+    display: flex;
+    gap: 1rem;
+}
+
+.third-review-col {
+    line-height: 2;
+}
+
+.review-title {
+    font-size: 1.25rem;
+}
+
+.positive-review {
+    font-size: 1.5rem;
+    padding-top: 1.25rem;
+}
+
+.user-info {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.user-info > img {
+    width: 50px;
+}
+
+.stars-title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.stars-title > h5 {
+    font-size: 1.25rem;
+}
+
+.stars-title > img {
+    width: 10%;
+    height: 1.75rem;
+}
+
+.user-review-para {
+    width: 50%;
+}
+
+.helpful-review {
+    color: #676666FC;
+
+}
+
+
+
