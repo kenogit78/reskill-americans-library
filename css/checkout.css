@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+}
+
+body {
+    font-family: "Jaldi", sans-serif;
+}
+
+.bar {
+    background: #14164A;
+    color: #F8D937;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.container {
+    display: flex;
+}
+
+/* First Section */
+
+.form {
+    width: 50%;
+}
+
+form {
+    padding: 0.5rem 7rem;
+}
+
+.top-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top-form-line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.main-form > h2 {
+    padding: 1rem 0;
+}
+
+.main-form > input[type="text"] {
+    width: 100%;
+}
+
+.check-out {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    border:none;
+    background: #F8D937;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.form > p {
+    padding-top: 2rem;
+}
+
+/* Second Section */
+
+.book {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #E7E5E5;
+    padding: 3.5rem;
+}
+
+.book-second-section {
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    padding: 1rem;
+}
+
+.picture > img {
+    width: 12rem;
+}
+
+.picture > p {
+    text-align: center;
+}
+
+.book-isbn {
+    padding: 0 1rem;
+    margin: 0 auto;
+    line-height: 2;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.book > footer {
+    padding: 10rem 13.5rem 0;
+    text-align: center;
+    color: #E40606;
+    
+}

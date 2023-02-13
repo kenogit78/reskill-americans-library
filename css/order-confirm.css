@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+}
+
+body {
+    font-family: "Jaldi", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #14164A;
+    color: #FFFEFE;
+    padding: 3rem 1rem;
+    font-size: 24px;
+    height: 8rem;
+}
+
+.home-icon {
+    width: 3.5rem;
+}
+
+nav > li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 15rem;
+    height: auto;
+    margin: 0;
+}
+
+.yellow-bar {
+    display: inline-block;
+    border-bottom: 1px solid #EECC1C;
+    width: 3.75rem;
+}
+
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text p {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.search {
+    border: none;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 25px;
+}
+
+.search-bar {
+    border: none;
+}
+
+.search-icon {
+    width: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.confirm-message {
+    font-size: 2rem;
+    padding: 7rem 38rem 5rem;
+    text-align: center;
+}
+
+main > h1 {
+    text-align: center;
+    color: #F8D937;
+    font-size: 3rem;
+}
+
+.team {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: #5359EF;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding-top: 27rem;
+}

@@ -130,6 +130,10 @@ nav > li {
     margin: 0 auto;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* Section: Full Description */
 
 h2 {
