@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Jaldi", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #14164A;
+    color: #FFFEFE;
+    padding: 3rem 1rem;
+    font-size: 24px;
+    height: 8rem;
+}
+
+.home-icon {
+    width: 3.5rem;
+}
+
+nav > li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 15rem;
+    height: auto;
+    margin: 0;
+}
+
+.yellow-bar {
+    display: inline-block;
+    border-bottom: 1px solid #EECC1C;
+    width: 3.75rem;
+}
+
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text p {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.search {
+    border: none;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 25px;
+}
+
+.search-bar {
+    border: none;
+}
+
+
+.search-icon {
+    width: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* Search Results */
+.search-results-bar {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.stephen-search-term {
+    position: relative;
+    left: 15rem;
+}
+
+.filter-stephen-king {
+    position: relative;
+    right: 5rem;
+}
+
+
+.container {
+    padding: 2rem;
+    width: 100%;
+}
+
+/* Search Display */
+
+
+.second-search-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    /* padding: 5rem 0 0 15rem; */
+    line-height: 2;
+}
+
+.filter-categories {
+    display: grid;
+    
+}
+
+.gray-square {
+    /* padding: -18rem; */
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+}
+
+.categories {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 2rem 0 1rem 1rem;
+
+}
+
+.search-square-button {
+    padding: 1rem 2rem;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 25px;
+}
+
+
+/* Grid of Books */
+
+.book-grid  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    padding: 2rem;
+}
+
+.book-grid > div > img {
+    width: 250px;
+}
+
+
+footer {
+    text-align: right;
+}
