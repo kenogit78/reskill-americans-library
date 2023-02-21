@@ -100,6 +100,7 @@ label {
 
 input {
     padding: 1rem 0.75rem;
+    border-radius: 5px;
     width: 100%;
 }
 
@@ -121,6 +122,7 @@ section {
 
 textarea {
     width: 100%;
+    border-radius: 5px;
 }
 
 button[type=submit] {
@@ -132,4 +134,18 @@ button[type=submit] {
 
 span {
     color: red;
+}
+
+#account{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+#account .card{
+    background-color: #FFFEFE;
+    border-radius: 5px;
+    border: 1px solid #14164A;
+    padding: 10px;
+    margin-right: 1em;
+    font-size: 1.5rem;
 }
