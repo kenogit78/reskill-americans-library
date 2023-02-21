@@ -1,0 +1,19 @@
+{
+  "name": "library-project",
+  "version": "1.0.0",
+  "description": "This project is a library user interface built using HTML, CSS, and JavaScript. It is designed to facilitate library patrons with an easy to use and intuitive user interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istoga/Library-Reskill-Americans.git"
+  },
+  "author": "Paul Adaroje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istoga/Library-Reskill-Americans/issues"
+  },
+  "homepage": "https://github.com/istoga/Library-Reskill-Americans#readme"
+}

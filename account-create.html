@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/account-create.css">
+   
     <title>Account Creation Page</title>
 </head>
 <body>
@@ -31,7 +32,7 @@
 
     <h1>Register</h1>
     <div class="container">
-        <form action="submit">
+        <form id="form">
             <label for="name">Name<span>*</span></label>
             <section id="name">
                 <div class="name-section">
@@ -46,7 +47,7 @@
 
             <section class="user">
                 <label for="user">Username<span>*</span></label>
-                <input type="text">
+                <input type="text" id="user">
             </section>
 
             <section class="email">
@@ -57,7 +58,7 @@
             
             <section class="password">
                 <label for="password">Password<span>*</span></label>
-                <input type="password" id="email">
+                <input type="password" id="password">
             </section>
             
 
@@ -66,12 +67,12 @@
                 <textarea type="text" id="bio" name="bio" rows="7" placeholder="Share a little information about yourself..."></textarea>
             </section>
             
-            <input type="submit">
+            <button type="submit"> Submit </button>
             
         
         </form>
         
-        
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
